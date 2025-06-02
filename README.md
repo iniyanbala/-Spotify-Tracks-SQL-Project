@@ -32,8 +32,11 @@ This project analyzes the **Spotify Tracks Dataset** from Kaggle using SQL. It f
 
 ##  Dataset
 
-- **Source:** [Spotify Tracks Dataset on Kaggle](https://www.kaggle.com/datasets/codebrainz/spotify-track-dataset)  
-- **File used:** `spotify_tracks.csv`
+## Dataset
+
+- **Source**: [Spotify Tracks Dataset on Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)  
+- **File Used**: `spotify_tracks.csv`
+
 
 ##  Tools & Technologies
 
