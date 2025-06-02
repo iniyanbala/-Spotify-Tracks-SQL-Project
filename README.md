@@ -20,13 +20,15 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL and Pytho
 
 - ***Audio Features***: How do energy and danceability vary across genres?
 
+- ***Popularity Trends***: Which tracks have a popularity higher than the average popularity of all tracks?
+
 ##  SQL Features Used
 
 - `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
 - `GROUP BY` with aggregate functions: `COUNT`, `AVG`, `MAX`
 - String filtering with `LIKE`
 - Date extraction and filtering with `SUBSTR`
-- Subqueries and sorting
+- SSubqueries** in `WHERE` clauses
 
 ##  Key Insights
 
@@ -34,6 +36,7 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL and Pytho
 - Artists like Drake and Ed Sheeran have the most tracks in the dataset.
 - Track popularity surged between 2016 and 2020.
 - Genres like Dance Pop and Hip-Hop show high energy and danceability.
+- Many tracks exceed the average popularity benchmark, indicating a strong skew toward a few hits.
 
 ## Dataset
 
