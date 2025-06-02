@@ -36,3 +36,14 @@ SELECT genre, AVG(energy) AS avg_energy, AVG(danceability) AS avg_danceability
 FROM spotify_tracks
 GROUP BY genre
 ORDER BY avg_energy DESC;
+
+-- 7. Tracks with Popularity Higher Than the Average
+SELECT name, artists, popularity
+FROM spotify_tracks
+WHERE popularity > (
+    SELECT AVG(popularity)
+    FROM spotify_tracks
+)
+ORDER BY popularity DESC
+LIMIT 20;
+
