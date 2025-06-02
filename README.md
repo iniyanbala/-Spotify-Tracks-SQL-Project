@@ -4,16 +4,21 @@ An intermediate SQL project exploring trends in Spotify music data using SQL and
 
 ##  Project Overview
 
-This project analyzes the **Spotify Tracks Dataset** from Kaggle using SQL. It focuses on answering key questions about track popularity, artist contributions, genre trends, and how features like energy and danceability vary across time and genres.
+This project analyzes the Spotify Tracks Dataset from Kaggle using SQL and Python (SQLite). It explores trends in track popularity, artist contributions, genre distributions, and how audio features like energy and danceability vary across genres and over time.
 
 ##  Questions Explored
 
--  What are the top 10 most popular tracks?
--  Which artists have released the most tracks?
--  What is the average track duration by genre?
--  How has music popularity evolved over time?
--  What are the most common genres?
--  How do energy and danceability vary by genre?
+- ***Top Tracks***: What are the top 10 most popular tracks in the dataset?
+
+- ***Prolific Artists***: Which artists have released the most tracks?
+  
+- ***Track Duration***: What is the average track duration for each genre?
+
+- ***Popularity Trends***: How has track popularity changed over the years?
+
+- ***Genre Distribution***: What are the most common genres in the dataset?
+
+- ***Audio Features***: How do energy and danceability vary across genres?
 
 ##  SQL Features Used
 
