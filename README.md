@@ -30,8 +30,6 @@ This project analyzes the **Spotify Tracks Dataset** from Kaggle using SQL. It f
 - Track popularity surged between 2016 and 2020.
 - Genres like Dance Pop and Hip-Hop show high energy and danceability.
 
-##  Dataset
-
 ## Dataset
 
 - **Source**: [Spotify Tracks Dataset on Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)  
