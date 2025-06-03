@@ -27,28 +27,22 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 - ***Explicitness vs. Positivity***: Do explicit tracks tend to be more or less positive (valence) than non-explicit tracks?
 
 
-##  SQL Features Used
+## SQL Features Used
 
-- Basic query operations: SELECT, WHERE, ORDER BY, LIMIT
-
-- Aggregations with GROUP BY using functions like COUNT(), AVG(), and MAX()
-
-- Window functions: ROW_NUMBER() OVER (ORDER BY ...) for ranking results
-
-- Filtering groups with HAVING clauses
-
-- Arithmetic operations and rounding results with ROUND()
-
+- Basic query operations: `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
+- Aggregations with `GROUP BY` using functions like `COUNT()`, `AVG()`, and `MAX()`
+- Window functions: `ROW_NUMBER() OVER (ORDER BY ...)` for ranking results
+- Filtering groups with `HAVING` clauses
+- Arithmetic operations and rounding results with `ROUND()`
 - Ordering results by aggregated or calculated fields
-  
 
+  
 ##  Key Insights
 
-- Pop tracks are consistently the most popular on Spotify.
-- Artists like Drake and Ed Sheeran have the most tracks in the dataset.
-- Track popularity surged between 2016 and 2020.
-- Genres like Dance Pop and Hip-Hop show high energy and danceability.
-- Many tracks exceed the average popularity benchmark, indicating a strong skew toward a few hits.
+- **Top Tracks** - The dataset highlights “Unholy (feat. Kim Petras)” by Sam Smith and Kim Petras as the most popular track, achieving the maximum popularity score of 100. The top 10 list features a mix of internationally acclaimed artists like Bad Bunny, David Guetta, and Harry Styles, with popularity scores ranging from 95 to 100, indicating strong listener engagement across various genres.
+
+- **Prolific Artists** – The Beatles top the list with 279 tracks, followed by George Jones (271) and Stevie Wonder (236). This reflects these artists’ extensive catalogs and strong presence in the dataset, highlighting their significant contributions to the music library.
+
 
 ## Dataset
 
