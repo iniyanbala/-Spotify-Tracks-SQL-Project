@@ -3,7 +3,8 @@
 An intermediate SQL project exploring trends in Spotify music data using SQL and Python (SQLite3 & Pandas).
 
 ##  Project Overview
-This project explores the Spotify Tracks Dataset using SQL and Python (via SQLite and Pandas). The analysis focuses on identifying trends in track popularity, artist contributions, audio features such as energy and danceability, and content characteristics like explicitness.
+
+This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data querying and Python for result handling and interpretation. It examines patterns in track popularity, artist output, audio characteristics like energy, danceability, and valence, as well as content traits such as explicitness. The analysis highlights how different genres and artist choices influence the mood and composition of music, providing insights into the structure and trends within the Spotify music catalog.
 
 ##  Questions Explored
 
@@ -17,9 +18,14 @@ This project explores the Spotify Tracks Dataset using SQL and Python (via SQLit
   
 - ***Audio Features***: How do energy and danceability vary across genres?
 
-- ***Popularity Trends***: Which tracks have a popularity higher than the average popularity of all tracks?
+- ***Genre Positivity***: Which genres have the highest average valence, indicating generally happier or more positive music?
 
 - ***Explicit Content***: How many explicit vs. non-explicit tracks are there in the dataset?
+
+- ***Explicitness vs. Popularity***: Do explicit tracks tend to be more or less popular than non-explicit tracks?
+  
+- ***Explicitness vs. Positivity***: Do explicit tracks tend to be more or less positive (valence) than non-explicit tracks?
+
 
 ##  SQL Features Used
 
