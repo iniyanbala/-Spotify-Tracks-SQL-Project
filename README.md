@@ -29,11 +29,18 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 
 ##  SQL Features Used
 
-- `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
-- `GROUP BY` with aggregate functions: `COUNT`, `AVG`, `MAX`
-- String filtering with `LIKE`
-- Date extraction and filtering with `SUBSTR`
-- Subqueries in `WHERE` clauses
+- Basic query operations: SELECT, WHERE, ORDER BY, LIMIT
+
+- Aggregations with GROUP BY using functions like COUNT(), AVG(), and MAX()
+
+- Window functions: ROW_NUMBER() OVER (ORDER BY ...) for ranking results
+
+- Filtering groups with HAVING clauses
+
+- Arithmetic operations and rounding results with ROUND()
+
+- Ordering results by aggregated or calculated fields
+  
 
 ##  Key Insights
 
