@@ -43,6 +43,11 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 
 - **Prolific Artists** – The Beatles top the list with 279 tracks, followed by George Jones (271) and Stevie Wonder (236). This reflects these artists’ extensive catalogs and strong presence in the dataset, highlighting their significant contributions to the music library.
 
+- **Track Duration by Genre** – Genres like *Detroit Techno*, *Minimal Techno*, and *Chicago House* have the longest average track durations, typically over 6 minutes. In contrast, genres such as *Grindcore*, *Children*, and *Study* have much shorter average durations, around 2.3 minutes, reflecting their stylistic differences and listening contexts.
+  
+- **Popular Artists** – Olivia Rodrigo tops the list with the highest average popularity (87.4) among artists with at least 5 tracks, followed closely by Bad Bunny, who also appears multiple times due to collaborations. Artists like Lil Nas X, Ariana Grande, and Måneskin consistently maintain high popularity across a significant number of tracks.
+
+
 
 ## Dataset
 
