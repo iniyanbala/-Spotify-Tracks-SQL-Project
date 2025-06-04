@@ -46,6 +46,18 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 - **Track Duration by Genre** – Genres like *Detroit Techno*, *Minimal Techno*, and *Chicago House* have the longest average track durations, typically over 6 minutes. In contrast, genres such as *Grindcore*, *Children*, and *Study* have much shorter average durations, around 2.3 minutes, reflecting their stylistic differences and listening contexts.
   
 - **Popular Artists** – Olivia Rodrigo tops the list with the highest average popularity (87.4) among artists with at least 5 tracks, followed closely by Bad Bunny, who also appears multiple times due to collaborations. Artists like Lil Nas X, Ariana Grande, and Måneskin consistently maintain high popularity across a significant number of tracks.
+  
+- **Audio Features by Genre** – Genres like death metal, grindcore, and metalcore rank highest in energy, reflecting their intense musical styles. In contrast, genres such as classical, new-age, and ambient show the lowest energy levels. Danceability tends to be higher in upbeat genres like happy and hardstyle, while energy-intensive genres like grindcore score low on danceability.
+
+- **Genre Positivity** – Genres such as salsa, forro, and rockabilly have the highest average valence, suggesting they are associated with more upbeat and positive moods. On the other end, genres like sleep, iranian, and ambient exhibit the lowest valence scores, indicating a generally calmer or more somber tone in the music.
+  
+- **Explicit Content** – The dataset contains significantly more non-explicit tracks (104,253) than explicit ones (9,747). This suggests that while explicit music is present, the majority of tracks lean toward cleaner content suitable for general audiences.
+  
+- **Popularity & Explicitness** – Explicit tracks have a higher average popularity (36.45) compared to non-explicit tracks (32.94), indicating that explicit content may be more engaging or commercially successful within the dataset.
+
+- **Explicitness & Positivity** – Both explicit and non-explicit tracks have nearly identical average valence scores (0.474 vs. 0.471), suggesting that lyrical explicitness does not significantly influence the overall musical positivity of a track.
+
+
 
 
 
