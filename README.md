@@ -1,6 +1,6 @@
 # Spotify Tracks SQL Project
 
-An intermediate SQL project exploring trends in Spotify music data using SQL and Python (SQLite3 & Pandas).
+A data exploration project uncovering trends in Spotify music using SQL and Python (SQLite3 & Pandas).
 
 ##  Project Overview
 
@@ -58,9 +58,6 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 - **Explicitness & Positivity** – Both explicit and non-explicit tracks have nearly identical average valence scores (0.474 vs. 0.471), suggesting that lyrical explicitness does not significantly influence the overall musical positivity of a track.
 
 
-
-
-
 ## Dataset
 
 - **Source**: [Spotify Tracks Dataset on Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)  
@@ -79,11 +76,12 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 All query results are visualized through Kaggle notebook screenshots. Find them in the `screenshots/` folder.
 
 1. Top 10 most popular tracks  
-2. Number of tracks by artist  
-3. Average duration by genre  
-4. Popularity trend by year  
-5. Most common genres  
-6. Energy and danceability overview  
+
+
+## Summary & Next Steps
+
+This analysis demonstrates how SQL and Python can be used together to extract meaningful insights from real-world music data. In future iterations, I plan to integrate additional datasets (e.g., artist metadata or user listening habits) to deepen the analysis and build visual dashboards for better storytelling.
+
 
 ##  Author
 
