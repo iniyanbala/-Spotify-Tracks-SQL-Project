@@ -6,6 +6,9 @@ A data exploration project uncovering trends in Spotify music using SQL and Pyth
 
 This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data querying and Python for result handling and interpretation. It examines patterns in track popularity, artist output, audio characteristics like energy, danceability, and valence, as well as content traits such as explicitness. The analysis highlights how different genres and artist choices influence the mood and composition of music, providing insights into the structure and trends within the Spotify music catalog.
 
+> **Note**: In the SQL queries, the dataset field for genre is named `track_genre`.  
+> For readability throughout this README and in the visualizations, it is referred to simply as **"genre"**.
+
 ##  Questions Explored
 
 - ***Top Tracks***: What are the top 10 most popular tracks in the dataset?
@@ -70,37 +73,38 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 - **Python** with Pandas and SQLite3
 - **Kaggle Notebook** for exploration
 - **GitHub** for version control and documentation
+  
 
 ##  Screenshots
 
 All query results are visualized through Kaggle notebook screenshots. Find them in the `screenshots/` folder.
 
 - **Top 10 Most Popular Tracks**  
-  <img src="Screenshots/Top Tracks.png" alt="Top Tracks" width="600"/>
+  <img src="Screenshots/Top Tracks.png" alt="Top Tracks" width="500"/>
 
 - **Most Prolific Artists**  
-  <img src="Screenshots/Artists With Most Tracks.png" alt="Prolific Artists" width="600"/>
+  <img src="Screenshots/Artists With Most Tracks.png" alt="Prolific Artists" width="500"/>
 
 - **Average Track Duration by Genre**  
-  <img src="Screenshots/Average Track Duration.png" alt="Track Duration" width="600"/>
+  <img src="Screenshots/Average Track Duration.png" alt="Track Duration" width="500"/>
 
 - **Highest Average Popularity (min. 5 tracks)**  
-  <img src="Screenshots/Highest Average Popularity.png" alt="Popular Artists" width="600"/>
+  <img src="Screenshots/Highest Average Popularity.png" alt="Popular Artists" width="500"/>
 
 - **Energy and Danceability by Genre**  
-  <img src="Screenshots/Average Eneregy and Danceability.png" alt="Audio Features" width="600"/>
+  <img src="Screenshots/Average Eneregy and Danceability.png" alt="Audio Features" width="500"/>
 
 - **Genres with Highest Valence**  
-  <img src="Screenshots/Average Valence.png" alt="Valence" width="600"/>
+  <img src="Screenshots/Average Valence.png" alt="Valence" width="500"/>
 
 - **Explicit vs. Non-Explicit Track Counts**  
-  <img src="Screenshots/Explicit vs Non-Explicit.png" alt="Explicitness" width="600"/>
+  <img src="Screenshots/Explicit vs Non-Explicit.png" alt="Explicitness" width="500"/>
 
 - **Popularity: Explicit vs. Non-Explicit Tracks**  
-  <img src="Screenshots/Average popularity of Explicit vs. Non-explicit tracks.png" alt="Popularity vs Explicit" width="600"/>
+  <img src="Screenshots/Average popularity of Explicit vs. Non-explicit tracks.png" alt="Popularity vs Explicit" width="500"/>
 
 - **Valence: Explicit vs. Non-Explicit Tracks**  
-  <img src="Screenshots/Average valence (positivity) for Explicit vs. Non-explicit tracks.png" alt="Valence vs Explicit" width="600"/>
+  <img src="Screenshots/Average valence (positivity) for Explicit vs. Non-explicit tracks.png" alt="Valence vs Explicit" width="500"/>
 
 
 ## Summary & Next Steps
