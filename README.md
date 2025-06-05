@@ -75,8 +75,7 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 
 All query results are visualized through Kaggle notebook screenshots. Find them in the `screenshots/` folder.
 
-1. Top 10 most popular tracks  
-
+1. ![Top 10 Most Popular Tracks](screenshots/Top Tracks.png)
 
 ## Summary & Next Steps
 
