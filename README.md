@@ -75,7 +75,33 @@ This project analyzes the Spotify Tracks Dataset from Kaggle using SQL for data 
 
 All query results are visualized through Kaggle notebook screenshots. Find them in the `screenshots/` folder.
 
-1. ![Top 10 Most Popular Tracks](Screenshots/Top Tracks.png)
+- **Top 10 Most Popular Tracks**  
+  <img src="Screenshots/Top Tracks.png" alt="Top Tracks" width="600"/>
+
+- **Most Prolific Artists**  
+  <img src="Screenshots/Artists With Most Tracks.png" alt="Prolific Artists" width="600"/>
+
+- **Average Track Duration by Genre**  
+  <img src="Screenshots/Average Track Duration.png" alt="Track Duration" width="600"/>
+
+- **Highest Average Popularity (min. 5 tracks)**  
+  <img src="Screenshots/Highest Average Popularity.png" alt="Popular Artists" width="600"/>
+
+- **Energy and Danceability by Genre**  
+  <img src="Screenshots/Average Eneregy and Danceability.png" alt="Audio Features" width="600"/>
+
+- **Genres with Highest Valence**  
+  <img src="Screenshots/Average Valence.png" alt="Valence" width="600"/>
+
+- **Explicit vs. Non-Explicit Track Counts**  
+  <img src="Screenshots/Explicit vs Non-Explicit.png" alt="Explicitness" width="600"/>
+
+- **Popularity: Explicit vs. Non-Explicit Tracks**  
+  <img src="Screenshots/Average popularity of Explicit vs. Non-explicit tracks.png" alt="Popularity vs Explicit" width="600"/>
+
+- **Valence: Explicit vs. Non-Explicit Tracks**  
+  <img src="Screenshots/Average valence (positivity) for Explicit vs. Non-explicit tracks.png" alt="Valence vs Explicit" width="600"/>
+
 
 ## Summary & Next Steps
 
